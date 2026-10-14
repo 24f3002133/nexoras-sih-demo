@@ -1,0 +1,106 @@
+/* Theme tokens — same palette family as MPLADS Oversight (light + dark). */
+:root {
+  --page-bg: #E6E9E3;
+  --sidebar-bg: #F7F9F5;
+  --sidebar-border: #D4DAD2;
+  --card-bg: #ffffff;
+  --border-color: #D6DCD3;
+
+  --text-primary: #131A22;
+  --text-secondary: #4A555F;
+  --text-muted: #6C7780;
+  --heading-color: #131A22;
+
+  --surface-muted: #E7EAE4;
+  --surface-active: #E1E7DE;
+  --surface-subtle: #F7F8F5;
+  --badge-bg: #E1E7F0;
+
+  --map-bg: #FBFAF6;
+  --map-grid: #E9E2CE;
+  --map-line: #CFC7B0;
+
+  --primary: #1b3a6b;
+  --primary-fg: #FAFBF9;
+  --primary-wash: rgba(27, 58, 107, 0.08);
+
+  --risk-high: #b4213d;
+  --risk-med: #9a6a0e;
+  --risk-clear: #1f6a4c;
+  --risk-high-wash: rgb(245, 224, 228);
+  --risk-med-wash: rgb(241, 234, 221);
+  --risk-clear-wash: rgb(224, 234, 230);
+
+  /* one colour = one meaning (actions + change marker) */
+  --act-approve: #16803c;
+  --act-modify: #2563EB;
+  --act-hold: #C2710C;
+  --changed: #7C3AED;
+  --changed-wash: rgba(124, 58, 237, 0.08);
+  --ready: #0F766E;
+  --watch: #5EBFB4;
+  --us: #C9D1D8;
+
+  --copilot-accent: #0E7C6B;
+  --copilot-accent-line: rgba(14, 124, 107, 0.35);
+  --copilot-accent-fg: #FFFFFF;
+  --copilot-header-bg: rgba(14, 124, 107, 0.07);
+  --copilot-chip-bg: rgba(14, 124, 107, 0.05);
+
+  --shadow-sm: 0 1px 2px rgba(19, 26, 34, 0.05);
+  --shadow-md: 0 4px 16px rgba(19, 26, 34, 0.08);
+  --cell-pad: 10px 16px;
+  --row-pad: 13px 16px;
+}
+
+:root[data-density="compact"] { --row-pad: 8px 16px; }
+
+:root[data-theme="dark"] {
+  --page-bg: #10192A;
+  --sidebar-bg: #0E1626;
+  --sidebar-border: #2A3D5F;
+  --card-bg: #16223A;
+  --border-color: #28395A;
+
+  --text-primary: #E8ECF3;
+  --text-secondary: #A9B6C9;
+  --text-muted: #8E9CB2;
+  --heading-color: #EFDCB0;
+
+  --surface-muted: #1D2A42;
+  --surface-active: #223351;
+  --surface-subtle: #16223A;
+  --badge-bg: #1F3050;
+
+  --map-bg: #0F1B2D;
+  --map-grid: #1D2A42;
+  --map-line: #2A3D5F;
+
+  --primary: #5B8DEF;
+  --primary-fg: #FAFBF9;
+  --primary-wash: rgba(91, 141, 239, 0.12);
+
+  --risk-high: #E0637B;
+  --risk-med: #E3B341;
+  --risk-clear: #3FBE8E;
+  --risk-high-wash: rgb(74, 46, 66);
+  --risk-med-wash: rgb(75, 69, 50);
+  --risk-clear-wash: rgb(29, 72, 71);
+
+  --act-approve: #22A55A;
+  --act-modify: #4C86F5;
+  --act-hold: #E08A1E;
+  --changed: #A78BFA;
+  --changed-wash: rgba(167, 139, 250, 0.12);
+  --ready: #2DB4A6;
+  --watch: #1F6F68;
+  --us: #3A4A66;
+
+  --copilot-accent: #2DE8C8;
+  --copilot-accent-line: rgba(45, 232, 200, 0.45);
+  --copilot-accent-fg: #06231D;
+  --copilot-header-bg: rgba(45, 232, 200, 0.10);
+  --copilot-chip-bg: rgba(45, 232, 200, 0.07);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
